@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 16px;
+}
+
+.row {
+    display:flex;
+    gap:12px;
+    align-items:center;
+    margin-bottom:12px;
+}
+
+.card {
+    padding:8px 12px;
+    border-radius:6px;
+    border:1px solid #ccc;
+    cursor:pointer;
+}
+
+.card:hover {
+    box-shadow:0 0 6px rgba(0,0,0,0.12);
+}
+
+.in-play {
+    background:#fffbe6;
+}
+
+.hand {
+    background:#e6f7ff;
+}
+
+#in-play-list, #hand-list {
+    display:flex;
+    gap:8px;
+    flex-wrap:wrap;
+}
+
